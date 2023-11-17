@@ -1,3 +1,5 @@
+import EntryButton from "@/components/EntryButton";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between gap-2 lg:p-12">
@@ -9,6 +11,8 @@ export default function Home() {
           Keep tabs on your stoma output
         </h2>
       </div>
+
+      <EntryButton />
     </main>
   );
 }

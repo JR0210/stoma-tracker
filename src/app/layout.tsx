@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Stoma Tracker",
+  title: "OstoMate",
   description:
-    "Stoma Tracker allows you to keep tabs on your stoma output, including its color, consistency, and frequency.",
+    "OstoMate allows you to keep tabs on your stoma output, including its color, consistency, and frequency.",
 };
 
 export default function RootLayout({

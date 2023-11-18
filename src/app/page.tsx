@@ -2,7 +2,7 @@ import EntryButton from "@/components/EntryButton";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between gap-2 lg:p-12">
+    <main className="flex min-h-screen flex-col items-center gap-2 lg:p-12">
       <div className="flex flex-col gap-4 items-center">
         <h1 className="text-3xl lg:text-6xl font-bold text-center">
           Osto<span className="text-primary">Mate</span>
